@@ -34,6 +34,8 @@ func main() {
 	ascending := insertionSort(arr)
 	fmt.Printf("%v", ascending)
 
+    fmt.Println();
+
 	descending := insertionSortReverse(arr)
 	fmt.Printf("%v", descending)
 }
