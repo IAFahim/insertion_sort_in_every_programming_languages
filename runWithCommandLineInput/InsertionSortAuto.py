@@ -20,7 +20,7 @@ def insertion_sort_reverse(arr):
     return arr
 
 
-arr = [4, 2, 0, 6, 9]
+arr = list(map(int, input("Input space separated array: ").strip().split()))
 
 ascending = insertion_sort(arr)
 print(ascending)
