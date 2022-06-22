@@ -1,4 +1,4 @@
-function insertionSort(arr: number[]): number[] {
+function insertion_sort(arr: number[]): number[] {
     for (let i = 1; i < arr.length; i++) {
         let key = arr[i];
         let j = i - 1;
@@ -11,7 +11,7 @@ function insertionSort(arr: number[]): number[] {
     return arr;
 }
 
-function insertionSortReverse(arr: number[]): number[] {
+function insertion_sort_reverse(arr: number[]): number[] {
     for (let i = 1; i < arr.length; i++) {
         let key = arr[i]
         let j = i - 1;
@@ -26,8 +26,8 @@ function insertionSortReverse(arr: number[]): number[] {
 
 let arr = [4, 2, 0, 6, 9]
 
-let ascending = insertionSort(arr)
+let ascending = insertion_sort(arr)
 console.log(ascending)
 
-let descending = insertionSortReverse(arr)
+let descending = insertion_sort_reverse(arr)
 console.log(descending)

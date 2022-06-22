@@ -20,7 +20,8 @@ def insertion_sort_reverse(arr):
     return arr
 
 
-arr = [4, 2, 0, 6, 9]
+import random
+arr = random.sample(range(100), random.randint(1, 50))
 
 ascending = insertion_sort(arr)
 print(ascending)
