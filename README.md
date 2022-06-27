@@ -1,5 +1,5 @@
 ### complexity analysis
-
+**Code**
 ```python
 # c1 assigment op
 # c2 comparison op
@@ -19,5 +19,6 @@ def insertion_sort(arr):
 # c1+c4 + n.(c1+c2+c3+c4) + n(2.c2)(n + 1) + n*n(2.c1+2.c3+c4)
 # O(n^2)
 ```
+**Pretty highlight**
 
 ![complexity analysis](complexityAnalysis/comPy.png)
